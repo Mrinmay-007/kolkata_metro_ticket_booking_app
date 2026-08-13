@@ -33,5 +33,4 @@ Some failures looked like connection issues but were seeding issues instead — 
 
 - Tests for the routing logic (interchanges, disconnected stations, edge cases).
 - A startup check that fails loudly if Postgres is unseeded, instead of silently surfacing later.
-- One setup command (`make setup` or Docker Compose) so table creation and seeding can't drift apart again.
 - Retry/backoff on the frontend's status polling so a backend restart doesn't flash "offline."
