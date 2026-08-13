@@ -164,9 +164,6 @@ def get_metro_route(source_name: str, destination_name: str):
     total_time = dist[best_target]
     interchanges_count = sum(1 for edge in edges if edge["type"] == "walk")
 
-    # Build the itinerary: one entry per station in the path. A station is
-    # flagged as an interchange point when the edge leaving it is a "walk"
-    # (line-transfer) edge rather than a "ride" edge.
     ordered_itinerary = []
     for i, node in enumerate(path_nodes):
         station = stations[node]
