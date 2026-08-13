@@ -280,18 +280,18 @@ Unless absolutely necessary, do **not** modify:
 
 Before submitting, ensure the following are completed:
 
-- [ ] Project runs successfully
-- [ ] Frontend runs successfully
-- [ ] Backend runs successfully
-- [ ] Verification code submitted
-- [ ] Metro stations are displayed correctly
-- [ ] Shortest route functionality works correctly
-- [ ] Required screenshots captured
-- [ ] Public Git repository created
-- [ ] Repository URL submitted
-- [ ] TESTIMONIAL.md added to the project root
-- [ ] No unnecessary code changes
-- [ ] No runtime errors
+- [✅] Project runs successfully
+- [✅] Frontend runs successfully
+- [✅] Backend runs successfully
+- [✅] Verification code submitted
+- [✅] Metro stations are displayed correctly
+- [✅] Shortest route functionality works correctly
+- [✅] Required screenshots captured
+- [✅] Public Git repository created
+- [✅] Repository URL submitted
+- [✅] TESTIMONIAL.md added to the project root
+- [✅] No unnecessary code changes
+- [✅] No runtime errors
 
 ---
 
